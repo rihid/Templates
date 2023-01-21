@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ponorogo</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
     <header>  
-        <h1>Ponorogo</h1>
-        <p>Resik Endah Omber Girang-gemirang</p>
+        <div class="jumbotron">
+            <h1>Ponorogo</h1>
+            <p>Resik Endah Omber Girang-gemirang</p> 
+        </div>
         <nav>
             <ul>
                 <li><a href="#sejarah">Sejarah</a></li>
@@ -21,9 +24,9 @@
 
     <main>
         <div id="content">
-            <article id="sejarah">
+            <article id="sejarah" class="card">
                 <h2>Sejarah</h2>
-                <img src="assets/img/reyog-po.jpg" alt="">
+                <img src="assets/img/reyog-po.jpg" alt="" class="featured-img">
                 <P>Menurut Babad Ponorogo, berdirinya Kabupaten Ponorogo dimulai setelah Raden Katong sampai di wilayah Wengker. Pada saat itu Wengker dipimpin oleh Surya Ngalam yang dikenal sebagai Ki Ageng Kutu. Raden Katong lalu memilih tempat yang memenuhi syarat untuk pemukiman (yaitu di Dusun Plampitan, Kelurahan Setono, Kecamatan Jenangan sekarang). Melalui situasi dan kondisi yang penuh dengan hambatan, tantangan, yang datang silih berganti, Raden Katong, Selo Aji, dan Ki Ageng Mirah beserta pengikutnya terus berupaya mendirikan pemukiman.</P>
             
                 <P>Tahun 1482–1486 M, untuk mencapai tujuan menegakkan perjuangan dengan menyusun kekuatan, sedikit demi sedikit kesulitan tersebut dapat teratasi, pendekatan kekeluargaan dengan Ki Ageng Kutu dan seluruh pendukungnya ketika itu mulai membuahkan hasil.</P>
@@ -31,27 +34,72 @@
                 <P>Dengan persiapan dalam rangka merintis kadipaten didukung semua pihak, Bathoro Katong (Raden Katong) dapat mendirikan Kadipaten Ponorogo pada akhir abad XV, dan ia menjadi adipati yang pertama.</P>
             </article>
 
-            <article id="geo">
+            <article id="geo" class="card">
                 <h2>Georgrafi</h2>
-                <img src="assets/img/telaga-ngebel.jpg" alt="">
+                <img src="assets/img/telaga-ngebel.jpg" alt="" class="featured-img">
                 <p>Kabupaten Ponorogo terletak di antara 111° 17’–111° 52’ BT dan 7° 49’–8° 20’ LS. Jarak ibu kota Ponorogo dengan ibu kota Provinsi Jawa Timur (Surabaya) kurang lebih 200 km ke arah timur laut dan ke ibu kota negara (Jakarta) kurang lebih 800 km ke arah barat.</p>
             </article>
             
-            <article id="wisata">
+            <article id="wisata" class="card">
                 <h2>Pariwisata</h2>
                 <p>Beberapa objek wisata alam yang terdapat di Kabupaten Ponorogo yaitu:</p>
-                <h3>Telaga Ngebel</h3>
-                <img src="assets/img/telaga-ngebel.jpg" alt="">
-                <p>Telaga Ngebel adalah sebuah danau alami yang terletak di Kecamatan Ngebel, Kabupaten Ponorogo. Kecamatan Ngebel terletak di lereng gunung Wilis. Telaga Ngebel terletak sekitar 30 km dari pusat kota Ponorogo dengan ketinggian 734 meter di atas permukaan laut. Keliling dari Telaga Ngebel sekitar 5 km dan suhu di telaga ini berkisar antara 20–26 ℃.</p>
-                <h3>Taman Wisata Ngembag</h3>
-                <img src="assets/img/taman-ngembang.jpg" alt="">
-                <p>Taman Wisata Ngembag adalah taman wisata yang terletak di Kelurahan Ronowijayan Kecamatan Siman sekitar 3 km di sebelah timur dari pusat kota Ponorogo. Taman ini terdiri dari sumber air yang dilengkapi dengan taman bermain dan kolam renang anak. Sebelumnya Ngembag dikenal sebagai mata air yang tak terawat. Kemudian oleh Pemkab Ponorogo diubah sebagai taman kota yang dilengkapi dengan kolam renang anak dan juga beberapa permainan anak-anak.</p>
-                <h3>Air Terjun Pletuk</h3>
-                <img src="assets/img/air-terjun-pletuk.jpg" alt="">
-                <p>Air Terjun Pletuk atau juga dikenal dengan nama Coban Temu adalah air terjun yang terletak di Dusun Kranggan, Desa Jurug, Kecamatan Sooko, sebelah tenggara dari pusat kota Ponorogo atau lebih tepatnya sebelah selatan dari Kecamatan Pulung. Air terjun ini memiliki ketinggian sekitar 30 meter dan berada di atas ketinggian 450 meter di atas laut. Kawasan ini dikelilingi oleh perbukitan yang menjulang tinggi dan ditumbuhi sejumlah tanaman.</p>
+                <section>
+                    <h3>Telaga Ngebel</h3>
+                    <img src="assets/img/telaga-ngebel.jpg" alt="" class="featured-img">
+                    <p>Telaga Ngebel adalah sebuah danau alami yang terletak di Kecamatan Ngebel, Kabupaten Ponorogo. Kecamatan Ngebel terletak di lereng gunung Wilis. Telaga Ngebel terletak sekitar 30 km dari pusat kota Ponorogo dengan ketinggian 734 meter di atas permukaan laut. Keliling dari Telaga Ngebel sekitar 5 km dan suhu di telaga ini berkisar antara 20–26 ℃.</p>
+                </section>
+                <section>
+                    <h3>Taman Wisata Ngembag</h3>
+                    <img src="assets/img/taman-ngembang.jpg" alt="" class="featured-img">
+                    <p>Taman Wisata Ngembag adalah taman wisata yang terletak di Kelurahan Ronowijayan Kecamatan Siman sekitar 3 km di sebelah timur dari pusat kota Ponorogo. Taman ini terdiri dari sumber air yang dilengkapi dengan taman bermain dan kolam renang anak. Sebelumnya Ngembag dikenal sebagai mata air yang tak terawat. Kemudian oleh Pemkab Ponorogo diubah sebagai taman kota yang dilengkapi dengan kolam renang anak dan juga beberapa permainan anak-anak.</p>
+                </section>
+                <section>
+                    <h3>Air Terjun Pletuk</h3>
+                    <img src="assets/img/air-terjun-pletuk.jpg" alt="">
+                    <p>Air Terjun Pletuk atau juga dikenal dengan nama Coban Temu adalah air terjun yang terletak di Dusun Kranggan, Desa Jurug, Kecamatan Sooko, sebelah tenggara dari pusat kota Ponorogo atau lebih tepatnya sebelah selatan dari Kecamatan Pulung. Air terjun ini memiliki ketinggian sekitar 30 meter dan berada di atas ketinggian 450 meter di atas laut. Kawasan ini dikelilingi oleh perbukitan yang menjulang tinggi dan ditumbuhi sejumlah tanaman.</p>
+
+                </section>
             </article>
         </div>
+        <aside>
+            <article class="profile card">
+                <header>
+                    <h2>Kabupaten Ponorogo</h2>
+                    <p>Kabupaten Biasa</p>
+                    <figure>
+                        <img src="assets/img/lambang-ponorogo.png">
+                        <figcaption>Lambang</figcaption>
+                    </figure>
+                </header>
+                <section>
+                    <h3>Informasi Lainnya</h3>
+                    <table>
+                      <tr>
+                        <th>Negara</th>
+                        <td>Indonesia</td>
+                      </tr>
+                      <tr>
+                        <th>Hari jadi</th>
+                        <td>25 September 1810</td>
+                      </tr>
+                      <tr>
+                        <th>Luas Total</th>
+                        <td>167.67 km<sup>2</sup></td>
+                      </tr>
+                      <tr>
+                        <th>Bahasa Daerah</th>
+                        <td>Jawa</td>
+                      </tr>
+                      <tr>
+                        <th>Kode Telepon</th>
+                        <td>+62 22</td>
+                      </tr>
+                    </table>
+                </section>
+            </article>
+        </aside>
     </main>
+    
 
     <footer>
         <p>Belajar Dasar Pemrograman Web &#169; 2019, Dicoding Academy</p>
